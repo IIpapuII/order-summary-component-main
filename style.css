@@ -1,0 +1,77 @@
+:root{
+    /* Color primary */
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    /* Color secundary */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+
+    /* size font weidth */
+    --small:500;
+    --large:600;
+    --bold:900;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size:62.5%;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-image:url(./images/pattern-background-mobile.svg);
+    background-position:top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: var(--Pale-blue);
+}
+main{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: auto;
+    bottom:auto;
+    align-items: center;
+    height: 100vh;
+
+}
+.target{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--Very-pale-blue);
+    height: 500px;
+    width: 340px;
+    align-content: center;
+    border-radius: 20px;
+
+}
+.target figure img{
+    height: 170px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.text p:nth-child(1){
+    font-weight: var(--bold);
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.text p:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: var(--small);
+    text-align: center;
+    margin-top: 15px;
+}
+
