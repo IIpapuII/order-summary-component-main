@@ -1,0 +1,10 @@
+/* Ajuste de pantalla para Desktop */
+@media (min-width:1440px){
+    body{
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 55%;
+    }
+}
