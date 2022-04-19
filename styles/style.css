@@ -27,7 +27,7 @@ html {
 }
 
 body {
-    background-image: url(./images/pattern-background-mobile.svg);
+    background-image: url(../images/pattern-background-mobile.svg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
